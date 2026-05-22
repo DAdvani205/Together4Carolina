@@ -35,8 +35,8 @@
         </button>
         <nav id="site-nav" class="site-nav" aria-label="Primary">
           <ul class="site-nav__list">
+            <li><a href="#the-need">The Need</a></li>
             <li><a href="#mission">Mission</a></li>
-            <li><a href="#community">Community</a></li>
             <li><a href="#focus">Our Focus</a></li>
             <li><a href="#approach">Approach</a></li>
             <li><a href="#programs">Programs</a></li>
@@ -63,41 +63,71 @@
         </div>
       </section>
 
-      <section class="intro" id="mission">
-        <div class="container intro__grid">
-          <div class="intro__lead">
-            <h2 class="section-label">Mission</h2>
-            <p class="intro__statement">
-              Together for Carolina is a community-driven initiative focused on improving
-              <strong>healthy food access</strong>, <strong>basic healthcare</strong>, and
-              <strong>educational support</strong> for underserved families across North Carolina.
+      <section class="need" id="the-need" aria-labelledby="need-heading">
+        <div class="container">
+          <header class="need__header">
+            <h2 id="need-heading" class="section-label">The Need</h2>
+            <p class="need__intro">
+              Founded by Indian American leaders and supporters across North Carolina,
+              <strong>Together for Carolina</strong> seeks to channel the energy, generosity, and volunteer
+              spirit of our community into meaningful local impact — helping create healthier families,
+              stronger communities, and greater opportunity across North Carolina.
             </p>
-          </div>
-          <div class="intro__body">
-            <p>
-              Our mission is to mobilize the Indian American community and local partners to bring
-              meaningful, measurable, and lasting change to families that are too often overlooked.
-            </p>
-            <p>
-              We believe real impact happens when communities come together with focus, compassion, and
-              long-term commitment. Rather than spreading resources thinly across many regions, Together
-              for Carolina is built around a simple idea:
-              <strong>adopt families in a town, build trusted local partnerships, create measurable outcomes,
-              and scale thoughtfully over time.</strong>
-            </p>
+          </header>
+
+          <div class="need__grid">
+            <article class="need-card need-card--food">
+              <div class="need-card__head">
+                <span class="need-card__icon" aria-hidden="true"></span>
+                <h3 class="need-card__title">Food</h3>
+              </div>
+              <p class="need-card__highlight">
+                <span class="need-card__num">20%</span>
+                of children in NC are food insecure
+              </p>
+            </article>
+            <article class="need-card need-card--health">
+              <div class="need-card__head">
+                <span class="need-card__icon" aria-hidden="true"></span>
+                <h3 class="need-card__title">Healthcare</h3>
+              </div>
+              <p class="need-card__highlight">
+                <span class="need-card__num">13 vs. 36</span>
+                physicians per 10,000 in rural NC vs. urban counties
+              </p>
+            </article>
+            <article class="need-card need-card--edu">
+              <div class="need-card__head">
+                <span class="need-card__icon" aria-hidden="true"></span>
+                <h3 class="need-card__title">Education</h3>
+              </div>
+              <p class="need-card__highlight">
+                <span class="need-card__num">$1,100</span>
+                average spent out of pocket by NC teachers for school supplies each year
+              </p>
+            </article>
           </div>
         </div>
       </section>
 
-      <section class="community" id="community">
+      <section class="intro" id="mission">
         <div class="container">
-          <h2 class="section-label">Community</h2>
-          <p class="community__text">
-            Founded by Indian American leaders and supporters across North Carolina,
-            <strong>Together for Carolina</strong> seeks to channel the energy, generosity, and volunteer
-            spirit of our community into meaningful local impact — helping create healthier families,
-            stronger communities, and greater opportunity across North Carolina.
-          </p>
+          <div class="intro__stack">
+          <h2 class="section-label">Mission</h2>
+          <div class="intro__body">
+            <p>
+              Our mission is to mobilize the Indian American community and local partners to bring
+              meaningful, measurable, and lasting change to families that are too often overlooked.
+              Our focus is on providing healthy food access, basic healthcare and education support.
+            </p>
+            <p>
+              We believe real impact happens when communities come together with focus, compassion, and
+              long-term commitment. Rather than spreading resources thinly across many regions, Together
+              for Carolina is built around a simple idea: focus on a township, build trusted local
+              partnerships, create measurable outcomes, and scale thoughtfully over time.
+            </p>
+          </div>
+          </div>
         </div>
       </section>
 
@@ -144,7 +174,7 @@
           <ol class="approach__grid">
             <li class="approach-card">
               <span class="approach-card__num" aria-hidden="true">01</span>
-              <h3 class="approach-card__title">Focus on families, one town at a time</h3>
+              <h3 class="approach-card__title">Focus on a township</h3>
             </li>
             <li class="approach-card">
               <span class="approach-card__num" aria-hidden="true">02</span>
