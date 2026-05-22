@@ -1,0 +1,148 @@
+:root {
+  --color-ink: #1a2420;
+  --color-border: #000000;
+  --font-display: "Libre Baskerville", Georgia, serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 2rem 1.5rem 3rem;
+  font-family: var(--font-body);
+  font-size: 11pt;
+  line-height: 1.4;
+  color: var(--color-ink);
+}
+
+.worksheet-header {
+  max-width: 52rem;
+  margin: 0 auto 2rem;
+  text-align: center;
+}
+
+.worksheet-brand {
+  margin: 0 0 0.25rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.worksheet-title {
+  margin: 0 0 0.5rem;
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+}
+
+.worksheet-instructions {
+  margin: 0;
+  max-width: 40rem;
+  margin-inline: auto;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: #4d5c56;
+}
+
+.worksheet-print-hint {
+  margin: 1.25rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.worksheet-print-hint button,
+.worksheet-print-hint a {
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.worksheet-print-hint button {
+  background: #1e4d3a;
+  color: #fff;
+  border: none;
+}
+
+.worksheet-print-hint a {
+  color: #1e4d3a;
+  border: 2px solid #1e4d3a;
+}
+
+.worksheet-main {
+  max-width: 52rem;
+  margin: 0 auto;
+}
+
+.worksheet-program {
+  margin-bottom: 2rem;
+  page-break-inside: avoid;
+}
+
+.worksheet-program h2 {
+  margin: 0 0 0.5rem;
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+/* Matches Word TableGrid: 3 columns, wide first column */
+.worksheet-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border: 1px solid var(--color-border);
+}
+
+.worksheet-table td {
+  border: 1px solid var(--color-border);
+  padding: 0.35rem 0.5rem;
+  vertical-align: top;
+  min-height: 1.25rem;
+}
+
+.worksheet-table td:first-child {
+  width: 62%;
+}
+
+.worksheet-table td:nth-child(2),
+.worksheet-table td:nth-child(3) {
+  width: 19%;
+}
+
+.worksheet-table__action {
+  font-weight: 600;
+  text-align: center;
+}
+
+.worksheet-table__single-line {
+  white-space: nowrap;
+}
+
+.worksheet-footer {
+  max-width: 52rem;
+  margin: 2rem auto 0;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #4d5c56;
+}
+
+@media print {
+  body {
+    padding: 0.5in;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+}

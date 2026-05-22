@@ -469,9 +469,31 @@ a:hover {
 }
 
 .programs__intro {
-  margin: 0;
+  margin: 0 0 1.5rem;
   font-size: 1.2rem;
   color: var(--color-ink-muted);
+}
+
+.programs__intro a {
+  font-weight: 600;
+}
+
+.programs__cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.programs__download {
+  flex: 1 1 100%;
+  max-width: 100%;
+  text-align: center;
+}
+
+@media (min-width: 520px) {
+  .programs__download {
+    flex: 0 1 auto;
+  }
 }
 
 .programs__grid {
@@ -487,9 +509,6 @@ a:hover {
 }
 
 .program-card {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
   height: 100%;
   padding: 1.75rem;
   background: var(--color-surface);
@@ -507,35 +526,18 @@ a:hover {
   color: var(--color-forest);
 }
 
-.program-card__label {
-  margin: 0 0 0.65rem;
-  font-size: 0.78rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--color-accent);
-}
-
-.program-card__action-list,
 .program-card__list {
-  margin: 0;
+  margin: 0.75rem 0 0;
   padding: 0;
   list-style: none;
 }
 
-.program-card__action-list li + li,
 .program-card__list li + li {
   margin-top: 0.45rem;
 }
 
-.program-card__action-list a {
-  font-weight: 600;
-  text-decoration: none;
-  color: var(--color-forest);
-}
-
-.program-card__action-list a:hover {
-  color: var(--color-accent);
+.program-card__list-item--single-line {
+  white-space: nowrap;
 }
 
 .program-card__list li {
