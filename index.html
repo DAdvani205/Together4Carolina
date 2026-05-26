@@ -35,9 +35,8 @@
         </button>
         <nav id="site-nav" class="site-nav" aria-label="Primary">
           <ul class="site-nav__list">
-            <li><a href="#the-need">The Need</a></li>
             <li><a href="#mission">Mission</a></li>
-            <li><a href="#focus">Our Focus</a></li>
+            <li><a href="#the-need">The Need</a></li>
             <li><a href="#approach">Approach</a></li>
             <li><a href="#programs">Programs</a></li>
             <li><a href="#impact">Impact</a></li>
@@ -54,7 +53,8 @@
           <p class="hero__eyebrow">Community-driven initiative</p>
           <h1 class="hero__title">Together for Carolina</h1>
           <p class="hero__lead">
-            Strengthening underserved North Carolina communities — one family at a time.
+            <span class="hero__lead-line">Strengthening underserved North Carolina communities by providing access to</span>
+            <span class="hero__lead-line">healthy food, basic healthcare and education support.</span>
           </p>
           <div class="hero__actions">
             <a class="btn btn--accent btn--large" href="#get-involved">Join us</a>
@@ -63,18 +63,36 @@
         </div>
       </section>
 
+      <section class="intro" id="mission">
+        <div class="container">
+          <div class="intro__stack">
+            <h2 class="section-label">Mission</h2>
+            <div class="intro__body">
+              <p>
+                Founded by Indian American leaders and supporters,
+                <strong>Together for Carolina</strong> seeks to channel the energy, generosity, and volunteer
+                spirit of our community into meaningful local impact — helping create healthier families,
+                stronger communities, and greater opportunity across North Carolina.
+              </p>
+              <p>
+                Our mission is to mobilize our community and local partners to bring
+                meaningful, measurable, and lasting change to families that are too often overlooked.
+                Our focus is on providing healthy food access, basic healthcare and education support.
+              </p>
+              <p>
+                We believe real impact happens when communities come together with focus, compassion, and
+                long-term commitment. Rather than spreading resources thinly across many regions, Together
+                for Carolina is built around a simple idea: focus on a township, build trusted local
+                partnerships, create measurable outcomes, and scale thoughtfully over time.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="need" id="the-need" aria-labelledby="need-heading">
         <div class="container">
-          <header class="need__header">
-            <h2 id="need-heading" class="section-label">The Need</h2>
-            <p class="need__intro">
-              Founded by Indian American leaders and supporters across North Carolina,
-              <strong>Together for Carolina</strong> seeks to channel the energy, generosity, and volunteer
-              spirit of our community into meaningful local impact — helping create healthier families,
-              stronger communities, and greater opportunity across North Carolina.
-            </p>
-          </header>
-
+          <h2 id="need-heading" class="section-label need__heading">The Need</h2>
           <div class="need__grid">
             <article class="need-card need-card--food">
               <div class="need-card__head">
@@ -82,8 +100,8 @@
                 <h3 class="need-card__title">Food</h3>
               </div>
               <p class="need-card__highlight">
-                <span class="need-card__num">20%</span>
-                of children in NC are food insecure
+                <span class="need-card__num">1 out of 5</span>
+                children in NC are food insecure
               </p>
             </article>
             <article class="need-card need-card--health">
@@ -102,75 +120,51 @@
                 <h3 class="need-card__title">Education</h3>
               </div>
               <p class="need-card__highlight">
-                <span class="need-card__num">$1,100</span>
-                average spent out of pocket by NC teachers for school supplies each year
+                <span class="need-card__num">$1,632</span>
+                average annual out-of-pocket spend by NC teachers on school supplies
               </p>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="intro" id="mission">
-        <div class="container">
-          <div class="intro__stack">
-          <h2 class="section-label">Mission</h2>
-          <div class="intro__body">
-            <p>
-              Our mission is to mobilize the Indian American community and local partners to bring
-              meaningful, measurable, and lasting change to families that are too often overlooked.
-              Our focus is on providing healthy food access, basic healthcare and education support.
-            </p>
-            <p>
-              We believe real impact happens when communities come together with focus, compassion, and
-              long-term commitment. Rather than spreading resources thinly across many regions, Together
-              for Carolina is built around a simple idea: focus on a township, build trusted local
-              partnerships, create measurable outcomes, and scale thoughtfully over time.
-            </p>
-          </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="focus" id="focus">
-        <div class="container focus__inner">
-          <div class="focus__copy">
-            <h2 class="section-label section-label--light">Our Focus</h2>
-            <h3 class="focus__title">Healthy food access first</h3>
-            <p>
-              We are beginning with healthy food access because nutrition is foundational to long-term
-              health, educational success, and economic stability.
-            </p>
-            <p>
-              Through partnerships with local nonprofits, schools, healthcare providers, volunteers, and
-              community organizations, we aim to support families with healthier meals, nutrition-focused
-              initiatives, and community-based support programs.
-            </p>
-          </div>
-          <ul class="focus__pillars" aria-label="Areas of support">
-            <li class="focus__pillar">
-              <span class="focus__pillar-mark" aria-hidden="true"></span>
-              <span>Healthy meals</span>
-            </li>
-            <li class="focus__pillar">
-              <span class="focus__pillar-mark focus__pillar-mark--health" aria-hidden="true"></span>
-              <span>Basic healthcare</span>
-            </li>
-            <li class="focus__pillar">
-              <span class="focus__pillar-mark focus__pillar-mark--edu" aria-hidden="true"></span>
-              <span>Educational support</span>
-            </li>
-          </ul>
-        </div>
-      </section>
-
       <section class="approach" id="approach" aria-labelledby="approach-heading">
         <div class="container">
           <header class="approach__header">
-            <h2 id="approach-heading" class="section-label">Our approach</h2>
-            <p class="approach__intro">
-              Focused action, trusted partnerships, and impact you can measure.
-            </p>
+            <h2 id="approach-heading" class="section-label">Approach</h2>
           </header>
+
+          <div class="approach__focus">
+            <div class="approach__focus-inner">
+              <div class="approach__focus-copy">
+                <h3 class="approach__focus-title">Healthy food access first</h3>
+                <p>
+                  We are beginning with healthy food access because nutrition is foundational to long-term
+                  health, educational success, and economic stability.
+                </p>
+                <p>
+                  Through partnerships with local nonprofits, schools, healthcare providers, volunteers, and
+                  community organizations, we aim to support families with healthier meals, nutrition-focused
+                  initiatives, and community-based support programs.
+                </p>
+              </div>
+              <ul class="approach__pillars" aria-label="Areas of support">
+                <li class="approach__pillar">
+                  <span class="approach__pillar-mark" aria-hidden="true"></span>
+                  <span>Healthy meals</span>
+                </li>
+                <li class="approach__pillar">
+                  <span class="approach__pillar-mark approach__pillar-mark--health" aria-hidden="true"></span>
+                  <span>Basic healthcare</span>
+                </li>
+                <li class="approach__pillar">
+                  <span class="approach__pillar-mark approach__pillar-mark--edu" aria-hidden="true"></span>
+                  <span>Educational support</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
           <ol class="approach__grid">
             <li class="approach-card">
               <span class="approach-card__num" aria-hidden="true">01</span>
@@ -219,8 +213,8 @@
               <h3 class="program-card__title">Food</h3>
               <ul class="program-card__list">
                 <li class="program-card__list-item--single-line">Raised Beds &amp; Gardening Workshop</li>
-                <li>School Food Pantry</li>
                 <li>Packaged Meals</li>
+                <li>School Food Pantry</li>
               </ul>
             </article>
             <article class="program-card">
@@ -324,6 +318,42 @@
       <div class="container footer__inner">
         <p class="footer__brand">Together for Carolina</p>
         <p class="footer__tagline">One family at a time. One town at a time.</p>
+        <div class="site-sources" id="sources">
+          <h2 class="site-sources__title">Sources</h2>
+          <ul class="site-sources__list">
+            <li>
+              <strong>Food (1 out of 5 children food insecure):</strong>
+              Feeding America,
+              <a href="https://www.feedingamerica.org/research/map-the-meal-gap" target="_blank" rel="noopener noreferrer"
+                >Map the Meal Gap 2025</a
+              >
+              (state and county-level child food insecurity estimates for North Carolina).
+            </li>
+            <li>
+              <strong>Healthcare (13 vs. 36 physicians per 10,000):</strong>
+              <a
+                href="https://www.northcarolinahealthnews.org/2023/05/19/disparate-issues-shape-rural-health-in-nc/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >NC Health News</a
+              >, citing estimates from the
+              <a href="https://www.shepscenter.unc.edu/" target="_blank" rel="noopener noreferrer"
+                >UNC Cecil G. Sheps Center for Health Services Research</a
+              >.
+            </li>
+            <li>
+              <strong>Education ($1,632 out-of-pocket spending):</strong>
+              North Carolina Association of Educators,
+              <a
+                href="https://www.ncae.org/about-ncae/media-center/press-releases/new-report-reveals-nc-teachers-spend-over-1600-out-pocket-supply-classrooms-rank-2nd-worst-nation"
+                target="_blank"
+                rel="noopener noreferrer"
+                >press release on the 2025 CouponBirds classroom spending report</a
+              >
+              (August 2025).
+            </li>
+          </ul>
+        </div>
         <p class="footer__legal">© 2026 Together for Carolina. All rights reserved.</p>
       </div>
     </footer>
