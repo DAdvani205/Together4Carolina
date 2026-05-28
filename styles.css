@@ -344,6 +344,15 @@ a:hover {
   font-style: italic;
 }
 
+/* Match Mission styling for section descriptions */
+.approach__focus-copy p,
+.programs__intro,
+.impact__intro,
+.cta__text {
+  font-size: clamp(1.2rem, 2vw, 1.35rem);
+  font-style: italic;
+}
+
 /* The Need */
 .need {
   padding: clamp(4rem, 8vw, 6rem) 0;
