@@ -34,7 +34,7 @@ html {
 body {
   margin: 0;
   font-family: var(--font-body);
-  font-size: 1.0625rem;
+  font-size: 1.125rem;
   line-height: 1.65;
   color: var(--color-ink);
   background: var(--color-bg);
@@ -338,6 +338,12 @@ a:hover {
   margin-bottom: 0;
 }
 
+/* Mission copy emphasis */
+#mission .intro__body p {
+  font-size: clamp(1.2rem, 2vw, 1.35rem);
+  font-style: italic;
+}
+
 /* The Need */
 .need {
   padding: clamp(4rem, 8vw, 6rem) 0;
@@ -581,7 +587,7 @@ a:hover {
 
 .approach__focus-copy p {
   margin: 0 0 1rem;
-  font-size: 1.0625rem;
+  font-size: 1.125rem;
   line-height: 1.65;
   color: var(--color-ink-muted);
 }
