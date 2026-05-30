@@ -528,6 +528,7 @@ a:hover {
   font-size: 1.05rem;
   line-height: 1.45;
   color: var(--color-ink);
+  text-align: center;
 }
 
 .need-card__num {
@@ -1055,7 +1056,7 @@ a:hover {
 .cta__email {
   font-weight: 600;
   color: var(--color-forest);
-  word-break: break-all;
+  white-space: nowrap;
 }
 
 .cta__email:hover {
