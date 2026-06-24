@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Together for Carolina strengthens underserved North Carolina communities through healthy food access, healthcare, and education."
+      content="Together 4 Carolina strengthens underserved North Carolina communities through healthy food access, healthcare, and education."
     />
-    <title>Together for Carolina — Strengthening NC communities</title>
+    <title>Together 4 Carolina — Strengthening NC communities</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -21,7 +21,20 @@
 
     <header class="site-header">
       <div class="container header__inner">
-        <a class="logo" href="#">Together for Carolina</a>
+        <a class="logo" href="#">
+          <span class="logo__mark" aria-hidden="true">
+            <svg class="logo__icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="18" fill="#fff5eb" />
+              <path d="M20 6c2 4 2 8 0 12-2-4-2-8 0-12z" fill="#e87722" />
+              <path d="M20 6c4 2 8 2 12 0-4 2-8 2-12 0z" fill="#f5c842" />
+              <path d="M32 20c-4 2-8 2-12 0 4-2 8-2 12 0z" fill="#3d9a82" />
+              <path d="M20 34c-2-4-2-8 0-12 2 4 2 8 0 12z" fill="#4a9fd4" />
+              <path d="M8 20c4-2 8-2 12 0-4 2-8 2-12 0z" fill="#c45c9a" />
+              <circle cx="20" cy="20" r="5" fill="#e87722" />
+            </svg>
+          </span>
+          <span class="logo__text">Together 4 Carolina</span>
+        </a>
         <button
           type="button"
           class="nav-toggle"
@@ -35,85 +48,167 @@
         </button>
         <nav id="site-nav" class="site-nav" aria-label="Primary">
           <ul class="site-nav__list">
-            <li><a href="#mission">Mission</a></li>
+            <li><a href="#mission">Our Mission</a></li>
+            <li><a href="#values">Our Values</a></li>
             <li><a href="#the-need">The Need</a></li>
-            <li><a href="#approach">Approach</a></li>
+            <li><a href="#approach">Our Approach</a></li>
             <li><a href="#programs">Programs</a></li>
-            <li><a href="#impact">Impact</a></li>
           </ul>
-          <a class="btn btn--accent" href="#get-involved">Get Involved</a>
+          <a class="btn btn--accent btn--mail" href="mailto:Together4Carolina@gmail.com">
+            <svg class="btn__icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+              <path
+                d="M2.5 5.5A2 2 0 0 1 4.5 3.5h11a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-11a2 2 0 0 1-2-2v-9z"
+                stroke="currentColor"
+                stroke-width="1.5"
+              />
+              <path d="m3.5 6.5 6.5 4.5 6.5-4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+            </svg>
+            Email Us
+          </a>
         </nav>
       </div>
     </header>
 
     <main id="main">
       <section class="hero">
-        <div class="hero__bg" aria-hidden="true"></div>
+        <div class="hero__bg" aria-hidden="true">
+          <img
+            class="hero__bg-image"
+            src="images/hero.jpg"
+            alt=""
+            width="1600"
+            height="900"
+            decoding="async"
+          />
+        </div>
         <div class="container hero__content">
-          <h1 class="hero__title">Together for Carolina</h1>
-          <p class="hero__eyebrow">Indian American Community Driven Initiative</p>
+          <div class="hero__copy">
+            <h1 class="hero__title">Together, we thrive.</h1>
+            <p class="hero__lead">Indian American Community Initiative</p>
+          </div>
+          <p class="hero__note">
+            <span class="hero__note-line">Rooted in Values.</span>
+            <span class="hero__note-line">Driven with Compassion.</span>
+            <span class="hero__note-line">Made for North Carolina.</span>
+          </p>
         </div>
       </section>
 
-      <section class="intro" id="mission">
+      <section class="mission" id="mission">
         <div class="container">
-          <div class="intro__stack">
-            <h2 class="section-label">Mission</h2>
-            <div class="intro__body">
-              <p>
-                Founded by Indian American leaders and supporters,
-                <strong>Together for Carolina</strong> mobilizes our community and local partners to bring
-                healthy food access, basic healthcare, and education support to families across North Carolina
-                who are too often overlooked.
-              </p>
-              <p>
-                We focus on one township at a time—building trusted partnerships, delivering measurable
-                results, and growing thoughtfully so impact lasts.
-              </p>
-              <p>
-                Sharing with and caring for our neighbors is a core value shared by all Indian Americans. This
-                has inspired us to engage with communities across North Carolina, a state we love and call
-                our home.
-              </p>
-            </div>
+          <h2 class="section-label">Our Mission</h2>
+          <div class="mission__body">
+            <p>
+              Together 4 Carolina is an initiative that mobilizes the Indian American community to engage with
+              and serve families across North Carolina that are too often overlooked. Our approach is to focus
+              on one township at a time — building trusted partnerships, delivering measurable results, and
+              growing thoughtfully so the impact is sustainable.
+            </p>
           </div>
+        </div>
+      </section>
+
+      <section class="values" id="values" aria-labelledby="values-heading">
+        <div class="container">
+          <h2 class="section-label" id="values-heading">Our Values</h2>
+          <div class="values__intro">
+            <p>
+              Many of us are second- and third-generation Americans. While our careers, communities, and lives
+              have evolved, the values passed down through our families remain remarkably consistent. Just as
+              importantly, we were taught the values of kindness, generosity, and showing up for our neighbors
+              when they need us most.
+            </p>
+            <p>
+              These values shaped us. Today, they guide how we serve North Carolina.
+            </p>
+          </div>
+          <ol class="values__grid" aria-labelledby="values-heading">
+              <li class="value-card value-card--community">
+                <h3 class="value-card__title">Share Meals</h3>
+                <p class="value-card__text">
+                  We show love through delicious spicy food. There’s always food
+                  for an extra mouth or for an unexpected guest stopping by. As when an auntie insists you take
+                  seconds, sharing food is an expression of love.
+                </p>
+                <p class="value-card__text value-card__text--belief">
+                  We believe no family should have to wonder where their next meal is coming from.
+                </p>
+              </li>
+              <li class="value-card value-card--healthcare">
+                <h3 class="value-card__title">Treat Everyone like Family</h3>
+                <p class="value-card__text">
+                  We have tightly knit communities and help anyone in need. We treat everyone with respect,
+                  especially our elders. If your neighbor is not feeling well, we tend to show up with a bowl
+                  of curd rice or a cup of soup.
+                </p>
+                <p class="value-card__text value-card__text--belief">
+                  We believe every family deserves access to the care they need to live healthy, productive
+                  lives.
+                </p>
+              </li>
+              <li class="value-card value-card--education">
+                <h3 class="value-card__title">Invest in our Children</h3>
+                <p class="value-card__text">
+                  For generations, Indian American families have viewed education as a pathway to opportunity.
+                  Behind every school drop-off is the belief that learning can change the future.
+                </p>
+                <p class="value-card__text value-card__text--belief">
+                  We believe every child deserves the opportunity to learn, grow, and reach their full
+                  potential.
+                </p>
+              </li>
+              <li class="value-card value-card--clothes">
+                <h3 class="value-card__title">Unity in Diversity</h3>
+                <p class="value-card__text">
+                  We speak different languages, worship different deities, eat different types of food, and have
+                  different festivals. And yet, we are united as one community. What binds us is mutual
+                  respect, acceptance, and our shared values.
+                </p>
+                <p class="value-card__text value-card__text--belief">
+                  We believe our diversity makes us stronger.
+                </p>
+              </li>
+            </ol>
         </div>
       </section>
 
       <section class="need" id="the-need" aria-labelledby="need-heading">
         <div class="container">
-          <h2 id="need-heading" class="section-label need__heading">The Need</h2>
-          <div class="need__grid">
-            <article class="need-card need-card--food">
-              <div class="need-card__head">
-                <span class="need-card__icon" aria-hidden="true"></span>
-                <h3 class="need-card__title">Food</h3>
-              </div>
-              <p class="need-card__highlight">
-                <span class="need-card__num">1 out of 5</span>
-                children in NC are food insecure
-              </p>
-            </article>
-            <article class="need-card need-card--health">
-              <div class="need-card__head">
-                <span class="need-card__icon" aria-hidden="true"></span>
-                <h3 class="need-card__title">Healthcare</h3>
-              </div>
-              <p class="need-card__highlight">
-                <span class="need-card__num">13 vs. 36</span>
-                physicians per 10,000 in rural NC vs. urban counties
-              </p>
-            </article>
-            <article class="need-card need-card--edu">
-              <div class="need-card__head">
-                <span class="need-card__icon" aria-hidden="true"></span>
-                <h3 class="need-card__title">Education</h3>
-              </div>
-              <p class="need-card__highlight">
-                <span class="need-card__num">$1,632</span>
-                average annual out-of-pocket spend by NC teachers on school supplies
-              </p>
-            </article>
+          <h2 id="need-heading" class="section-label">The Need</h2>
+          <div class="need__intro">
+            <p>
+              The values we grew up with are more important than ever. Across North Carolina, too many families
+              face challenges that limit opportunity and well-being. These aren’t just statistics. They’re our
+              neighbors, classmates, and communities.
+            </p>
+            <p>
+              That’s why Together 4 Carolina focuses on practical solutions that reflect the values we hold
+              dear.
+            </p>
+          </div>
+          <div class="need__panel">
+            <div class="need__grid">
+              <article class="need-card need-card--meals">
+                <h3 class="need-card__label">Food</h3>
+                <p class="need-card__stat">1 out of 5</p>
+                <p class="need-card__desc">children in NC are food insecure</p>
+              </article>
+              <article class="need-card need-card--healing">
+                <h3 class="need-card__label">Healthcare</h3>
+                <p class="need-card__stat">13 vs. 36</p>
+                <p class="need-card__desc">physicians per 10,000 in rural NC vs. urban counties</p>
+              </article>
+              <article class="need-card need-card--learning">
+                <h3 class="need-card__label">Education</h3>
+                <p class="need-card__stat">$1,632</p>
+                <p class="need-card__desc">average annual out-of-pocket spend by NC teachers on school supplies</p>
+              </article>
+              <article class="need-card need-card--confidence">
+                <h3 class="need-card__label">Clothing</h3>
+                <p class="need-card__stat">2 out of 5</p>
+                <p class="need-card__desc">children are clothing insecure</p>
+              </article>
+            </div>
           </div>
         </div>
       </section>
@@ -121,61 +216,49 @@
       <section class="approach" id="approach" aria-labelledby="approach-heading">
         <div class="container">
           <header class="approach__header">
-            <h2 id="approach-heading" class="section-label">Approach</h2>
+            <h2 id="approach-heading" class="section-label">Our Approach</h2>
           </header>
 
-          <div class="approach__focus">
-            <div class="approach__focus-inner">
-              <div class="approach__focus-copy">
-                <h3 class="approach__focus-title">Listen. Prioritize. Act.</h3>
-                <p>
-                  Our approach is to engage with the township and to listen to their needs. Once we
-                  understand the unique challenges faced by the township, we develop a prioritized action
-                  plan around the food, healthcare and education.
-                </p>
-                <p>
-                  Through partnerships with local nonprofits, schools, healthcare providers, volunteers, and
-                  community organizations, we aim to support families with healthier meals, nutrition-focused
-                  initiatives, and community-based support programs.
-                </p>
-              </div>
-              <ul class="approach__pillars" aria-label="Areas of support">
-                <li class="approach__pillar">
-                  <span class="approach__pillar-mark" aria-hidden="true"></span>
-                  <span>Healthy meals</span>
-                </li>
-                <li class="approach__pillar">
-                  <span class="approach__pillar-mark approach__pillar-mark--health" aria-hidden="true"></span>
-                  <span>Basic healthcare</span>
-                </li>
-                <li class="approach__pillar">
-                  <span class="approach__pillar-mark approach__pillar-mark--edu" aria-hidden="true"></span>
-                  <span>Educational support</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <ol class="approach__grid">
-            <li class="approach-card">
-              <span class="approach-card__num" aria-hidden="true">01</span>
-              <h3 class="approach-card__title">Focus on a township</h3>
+          <ol class="approach__steps" aria-label="Our approach">
+            <li class="approach-step approach-step--research">
+              <h3 class="approach-step__title">🔍 Research</h3>
+              <p class="approach-step__subtitle">Choose the right township.</p>
+              <p class="approach-step__text">
+                We analyze community data, local needs, and existing resources to identify where support
+                can have the greatest impact.
+              </p>
             </li>
-            <li class="approach-card">
-              <span class="approach-card__num" aria-hidden="true">02</span>
-              <h3 class="approach-card__title">Build strong local partnerships</h3>
+            <li class="approach-step approach-step--listen">
+              <h3 class="approach-step__title">👂 Listen</h3>
+              <p class="approach-step__subtitle">Understand what matters most.</p>
+              <p class="approach-step__text">
+                We meet with local leaders, schools, families, and community organizations to learn about
+                their most pressing needs.
+              </p>
             </li>
-            <li class="approach-card">
-              <span class="approach-card__num" aria-hidden="true">03</span>
-              <h3 class="approach-card__title">Prioritize measurable impact</h3>
+            <li class="approach-step approach-step--prioritize">
+              <h3 class="approach-step__title">📋 Prioritize</h3>
+              <p class="approach-step__subtitle">Build a focused action plan.</p>
+              <p class="approach-step__text">
+                Together with local stakeholders, we identify the highest-impact opportunities and create a
+                practical roadmap for action.
+              </p>
             </li>
-            <li class="approach-card">
-              <span class="approach-card__num" aria-hidden="true">04</span>
-              <h3 class="approach-card__title">Mobilize volunteers and donors</h3>
+            <li class="approach-step approach-step--act">
+              <h3 class="approach-step__title">🤝 Act</h3>
+              <p class="approach-step__subtitle">Mobilize people and partnerships.</p>
+              <p class="approach-step__text">
+                We bring together volunteers, donors, healthcare professionals, nonprofits, schools, and
+                local organizations to deliver meaningful support.
+              </p>
             </li>
-            <li class="approach-card approach-card--wide">
-              <span class="approach-card__num" aria-hidden="true">05</span>
-              <h3 class="approach-card__title">Scale thoughtfully and sustainably</h3>
+            <li class="approach-step approach-step--measure">
+              <h3 class="approach-step__title">📈 Measure</h3>
+              <p class="approach-step__subtitle">Track outcomes and improve.</p>
+              <p class="approach-step__text">
+                We measure results, share progress transparently, and use what we learn to strengthen future
+                efforts.
+              </p>
             </li>
           </ol>
         </div>
@@ -183,120 +266,46 @@
 
       <section class="programs" id="programs" aria-labelledby="programs-heading">
         <div class="container">
-          <header class="programs__header">
-            <h2 id="programs-heading" class="section-label">Programs</h2>
-            <p class="programs__intro">
-              Contribute dollars or volunteer for the programs below. Download the worksheet, fill
-              in your choices, and forward the updated worksheet to
-              <a href="mailto:Together4Carolina@gmail.com">Together4Carolina@gmail.com</a>.
+          <h2 id="programs-heading" class="section-label">Programs</h2>
+          <div class="programs__body">
+            <p>
+              Together 4 Carolina is currently researching communities across North Carolina and meeting with
+              local stakeholders to understand where support is needed most. Our first set of programs will be
+              announced after we’ve completed our research and listening process. We’re committed to building
+              solutions with communities, not for them.
             </p>
-            <div class="programs__cta">
-              <a
-                class="btn btn--accent programs__download"
-                href="programs-worksheet.html"
-                download="Together-for-Carolina-Programs-Worksheet.html"
-                >Download programs worksheet</a
-              >
-            </div>
-          </header>
-          <div class="programs__grid">
-            <article class="program-card">
-              <h3 class="program-card__title">Food</h3>
-              <ul class="program-card__list">
-                <li>Food Drive</li>
-                <li class="program-card__list-item--single-line">Raised Beds &amp; Gardening Workshop</li>
-                <li>Packaged Meals</li>
-                <li>School Food Pantry</li>
-              </ul>
-            </article>
-            <article class="program-card">
-              <h3 class="program-card__title">Healthcare</h3>
-              <ul class="program-card__list">
-                <li>Hygiene Kits</li>
-                <li>Eye and Dental Care</li>
-                <li>Bloodwork Diagnostics</li>
-              </ul>
-            </article>
-            <article class="program-card">
-              <h3 class="program-card__title">Education</h3>
-              <ul class="program-card__list">
-                <li>School Supplies</li>
-                <li>Tutoring</li>
-                <li>Personalized Learning</li>
-              </ul>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="impact" id="impact" aria-labelledby="impact-heading">
-        <div class="container">
-          <header class="impact__header">
-            <h2 id="impact-heading" class="section-label">Impact</h2>
-            <p class="impact__intro">
-              Measurable outcomes from our community’s generosity and volunteer spirit.
+            <p>
+              <span class="programs__journey">Follow the Journey</span> — Be among the first to hear when we
+              select our first township, announce our first initiatives, and begin recruiting volunteers and
+              partners. Contact us at
+              <a href="mailto:Together4Carolina@gmail.com">Together4Carolina@gmail.com</a>
+              to get involved.
             </p>
-          </header>
-          <div class="impact__primary" aria-label="Key impact metrics">
-            <article class="impact-stat impact-stat--primary impact-stat--dollars">
-              <p class="impact-stat__value">$100,000</p>
-              <p class="impact-stat__label">Raised</p>
-            </article>
-            <article class="impact-stat impact-stat--primary impact-stat--hours">
-              <p class="impact-stat__value">XX</p>
-              <p class="impact-stat__label">Volunteer hours served</p>
-            </article>
           </div>
-          <ul class="impact__detail" aria-label="Program impact details">
-            <li class="impact-detail impact-detail--food">
-              <span class="impact-detail__value">XX</span>
-              <span class="impact-detail__label">Pounds of food donated</span>
-            </li>
-            <li class="impact-detail impact-detail--health">
-              <span class="impact-detail__value">XX</span>
-              <span class="impact-detail__label">Hygiene kits delivered</span>
-            </li>
-            <li class="impact-detail impact-detail--food">
-              <span class="impact-detail__value">XX</span>
-              <span class="impact-detail__label">Raised garden beds delivered</span>
-            </li>
-            <li class="impact-detail impact-detail--food">
-              <span class="impact-detail__value">XX</span>
-              <span class="impact-detail__label">School pantries supported</span>
-            </li>
-            <li class="impact-detail impact-detail--food">
-              <span class="impact-detail__value">XX</span>
-              <span class="impact-detail__label">Packaged meals provided</span>
-            </li>
-            <li class="impact-detail impact-detail--edu">
-              <span class="impact-detail__value">XX</span>
-              <span class="impact-detail__label">School supplies donated</span>
-            </li>
-            <li class="impact-detail impact-detail--edu">
-              <span class="impact-detail__value">XX</span>
-              <span class="impact-detail__label">Families receiving tutoring support</span>
-            </li>
-            <li class="impact-detail impact-detail--health">
-              <span class="impact-detail__value">XX</span>
-              <span class="impact-detail__label">Health screenings completed</span>
-            </li>
-          </ul>
         </div>
       </section>
 
       <section class="cta" id="get-involved" aria-labelledby="cta-heading">
+        <div class="cta__decor" aria-hidden="true">
+          <svg class="cta__map" viewBox="0 0 120 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M60 10 L95 35 L100 80 L85 130 L60 190 L35 130 L20 80 L25 35 Z" fill="#e87722" opacity="0.15" stroke="#e87722" stroke-width="1.5"/>
+          </svg>
+        </div>
         <div class="container cta__inner">
           <h2 id="cta-heading" class="cta__title">
             Together, we will build healthier and more resilient communities across North Carolina.
           </h2>
           <p class="cta__text">
             Whether you volunteer, partner, or give — your support helps families thrive.
-            Send an email to
-            <a class="cta__email" href="mailto:Together4Carolina@gmail.com">Together4Carolina@gmail.com</a>.
           </p>
           <div class="cta__actions">
-            <a class="btn btn--accent btn--large" href="mailto:Together4Carolina@gmail.com">Email us</a>
-            <a class="btn btn--outline btn--large" href="#mission">Learn more</a>
+            <a class="btn btn--accent btn--large btn--mail" href="mailto:Together4Carolina@gmail.com">
+              <svg class="btn__icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                <path d="M2.5 5.5A2 2 0 0 1 4.5 3.5h11a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-11a2 2 0 0 1-2-2v-9z" stroke="currentColor" stroke-width="1.5"/>
+                <path d="m3.5 6.5 6.5 4.5 6.5-4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+              Email Us
+            </a>
           </div>
         </div>
       </section>
@@ -304,7 +313,39 @@
 
     <footer class="site-footer">
       <div class="container footer__inner">
-        <p class="footer__brand">Together for Carolina</p>
+        <div class="footer__brand-row">
+          <p class="footer__brand">
+            <span class="footer__logo-mark" aria-hidden="true">
+              <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="18" fill="rgba(255,255,255,0.1)" />
+                <path d="M20 6c2 4 2 8 0 12-2-4-2-8 0-12z" fill="#e87722" />
+                <path d="M20 6c4 2 8 2 12 0-4 2-8 2-12 0z" fill="#f5c842" />
+                <path d="M32 20c-4 2-8 2-12 0 4-2 8-2 12 0z" fill="#3d9a82" />
+                <path d="M20 34c-2-4-2-8 0-12 2 4 2 8 0 12z" fill="#4a9fd4" />
+                <path d="M8 20c4-2 8-2 12 0-4 2-8 2-12 0z" fill="#c45c9a" />
+                <circle cx="20" cy="20" r="5" fill="#e87722" />
+              </svg>
+            </span>
+            Together 4 Carolina
+          </p>
+          <ul class="footer__social" aria-label="Social media">
+            <li>
+              <a href="#" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              </a>
+            </li>
+          </ul>
+        </div>
         <p class="footer__tagline">One family at a time. One town at a time.</p>
         <div class="site-sources" id="sources">
           <h2 class="site-sources__title">Sources</h2>
@@ -340,9 +381,22 @@
               >
               (August 2025).
             </li>
+            <li>
+              <strong>Clothes (2 out of 5 children clothing insecure):</strong>
+              <a href="https://noteinthepocket.org/our-impact/" target="_blank" rel="noopener noreferrer"
+                >Note in the Pocket</a
+              >,
+              <a
+                href="https://noteinthepocket.org/2024/10/22/developing-nc-network-to-fight-clothing-insecurity/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >“Developing NC Network to Fight Clothing Insecurity”</a
+              >
+              (October 2024; national clothing insecurity estimate cited in North Carolina context).
+            </li>
           </ul>
         </div>
-        <p class="footer__legal">© 2026 Together for Carolina. All rights reserved.</p>
+        <p class="footer__legal">© 2026 Together 4 Carolina. All rights reserved.</p>
       </div>
     </footer>
 

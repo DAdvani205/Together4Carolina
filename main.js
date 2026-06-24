@@ -1,4 +1,29 @@
 (function () {
+  if ("scrollRestoration" in history) {
+    history.scrollRestoration = "manual";
+  }
+
+  function scrollToTopOnLoad() {
+    var navEntry =
+      performance.getEntriesByType && performance.getEntriesByType("navigation")[0];
+    var isReload = navEntry && navEntry.type === "reload";
+
+    if (isReload) {
+      if (location.hash) {
+        history.replaceState(null, "", location.pathname + location.search);
+      }
+      window.scrollTo(0, 0);
+      return;
+    }
+
+    if (!location.hash) {
+      window.scrollTo(0, 0);
+    }
+  }
+
+  scrollToTopOnLoad();
+  window.addEventListener("pageshow", scrollToTopOnLoad);
+
   var nav = document.getElementById("site-nav");
   var toggle = document.querySelector(".nav-toggle");
   if (!nav || !toggle) return;
