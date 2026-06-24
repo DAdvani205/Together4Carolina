@@ -1001,20 +1001,6 @@ a:hover {
   overflow: hidden;
 }
 
-.cta__decor {
-  position: absolute;
-  left: 5%;
-  top: 50%;
-  transform: translateY(-50%);
-  opacity: 0.5;
-  pointer-events: none;
-}
-
-.cta__map {
-  width: min(120px, 20vw);
-  height: auto;
-}
-
 .cta__inner {
   position: relative;
   z-index: 1;
