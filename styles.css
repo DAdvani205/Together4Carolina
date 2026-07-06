@@ -1031,6 +1031,82 @@ a:hover {
   gap: 0.85rem;
 }
 
+/* Donate page */
+.donate-page {
+  padding: clamp(4rem, 8vw, 5.5rem) 0 clamp(5rem, 10vw, 6.5rem);
+  background:
+    radial-gradient(circle at 10% 80%, rgba(184, 230, 208, 0.3), transparent 40%),
+    var(--color-bg-warm);
+}
+
+.donate-page__content {
+  max-width: min(56rem, 100%);
+}
+
+.donate-page__lead {
+  margin: 0 0 2rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 2.5vw, 1.65rem);
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--color-ink);
+}
+
+.donate-page__intro p {
+  margin: 0;
+  font-size: clamp(1.05rem, 1.8vw, 1.2rem);
+  line-height: 1.65;
+  color: var(--color-ink-muted);
+}
+
+.donate-page__subheading {
+  margin: 2.75rem 0 1.25rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 2.5vw, 1.55rem);
+  font-weight: 700;
+  color: var(--color-ink);
+}
+
+.donate-page__options {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.donate-page__option {
+  padding: clamp(1.75rem, 4vw, 2.25rem);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+}
+
+.donate-page__option-title {
+  margin: 0 0 0.75rem;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-ink);
+}
+
+.donate-page__option-text {
+  margin: 0 0 1.5rem;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--color-ink-muted);
+}
+
+.donate-page__closing {
+  margin: 2.75rem 0 0;
+  padding-top: 2.75rem;
+  border-top: 1px solid var(--color-border);
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 2.5vw, 1.55rem);
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--color-ink);
+}
+
 /* Footer */
 .site-footer {
   padding: 2.5rem 0;
